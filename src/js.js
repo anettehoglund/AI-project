@@ -18,9 +18,9 @@ let context =
   "You are a Crossfit training expert and will generate a metcon. Answer should be short and shown in a list using basic html. only include workout";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-console.log(userInstruction.value)
-console.log(`prompt: ${prompt}`);
-console.log(`context: ${context}`);
+let answerBox = document.querySelector("#answer");
+answerBox.classList.remove("hidden");
+answerBox.innerHTML = `<div class ="loadingBlink">[  👀 ⏳ ...loading workout including ${userInstruction.value}   ]</div>`;
 
 axios.get(apiUrl).then(displayAnswer);
 }
