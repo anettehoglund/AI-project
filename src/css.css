@@ -16,21 +16,29 @@ h1{
 }
 
 .answer{
-    background-color: #f7f1e9;
+    background-color: #eceae7;
     padding: 20px;
-    margin: 10px;
+    margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
     color:#000;
     font-size: 12px;
     line-height: 20px;
     text-align: left;
+    border-radius: 10px;
+    max-width: 70%;
+    margin-top: 10px;
 }
 
 form{
     padding: 15px;
     border-radius: 20px;
-    background-color: antiquewhite;
-    margin: 10px;
+    background-color: #f0e9de;
+}
+
+.exempleInput{
+    font-size: 8px;
+    text-align: left;
+    color: #a1a1a1;
 }
 
 .searchBar{
