@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>🤖 My AI-generator</title>
     <link rel="stylesheet" href="src/css.css">
@@ -10,9 +11,9 @@
 
 <body>
 <div class="container">
-    <h1>AI generetor</h1>
+    <h1>Crossfit Metcon AI generetor 🦾</h1>
     <form id="form-generator">
-        <input type="text" placeholder="What do you want to include...?" required class="searchBar"/>
+        <input type="text" placeholder="What Crossfit movement or equitment do you want to include?" required class="searchBar" id="userinput"/>
         <input type="submit" value="Send" class="submit">
     </form>
     <div id="answer" class="answer">
