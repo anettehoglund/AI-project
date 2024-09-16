@@ -77,8 +77,10 @@ form{
 
         .loadingBlink {
             text-align: center;
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 100;
             margin-top: 10%;
-            font-size: 15px;
+            font-size: 13px;
             color: #7b6d51;
             animation: blink 1s infinite; 
         }
